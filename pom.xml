@@ -3,6 +3,33 @@
   <groupId>SeleniumProject</groupId>
   <artifactId>SeleniumProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+  <maven.compiler.source>
+  1.7
+  </maven.compiler.source>
+  <maven.compiler.target>
+  1.7
+  </maven.compiler.target>  
+  </properties>
+  
+  <build>
+  <plugins>
+  
+  <plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-compiler-plugin</artifactId>
+  <version>3.11.0</version>
+  <type>maven-plugin</type>
+</plugin>
+  </plugins>
+  
+  </build>
+  
+  
+  
+  
+  
   <dependencies>
   <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 <dependency>
