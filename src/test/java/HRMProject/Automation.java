@@ -54,8 +54,7 @@ public static void main(String[] args) throws InterruptedException {
 			WebElement addemployee = driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[2]/nav/ul/li[3]/ul/div[1]/li/a"));
 			addemployee.click();
 			WebElement fname = driver.findElement(By.name("firstName"));
-			fname.sendKeys("Priyanka");
-			
+			fname.sendKeys("Priyanka");	
 			WebElement lname = driver.findElement(By.name("lastName"));
 			lname.sendKeys("D");
 			WebElement save = driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[2]/button[2]"));
